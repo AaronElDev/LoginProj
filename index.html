@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    
+<!--Make a media query around 663px width -->
+<title>F</title>
+<body>
+<div class="Su_Container" id="signup" style="display: none;">
+    <div class="container">
+            <div class="formCon">
+            <h1> Welcome to FaQueue!</h1>
+            <h2> Sign Up</h2>
+        <form>
+            <div class="BasicInfo">
+                <div class="box1"><label for="Fname">First Name:</label><br>
+                <input type="text"><br></div>
+                <div class="box1"><label for="Lname">Last Name:</label><br>
+                <input type="text"> <br></div>
+                <div class="box1"><label for="Uname">Username:</label><br>
+                <input type="text"> <br></div>
+                <div class="box1"><label for="phoneno">Mobile Number</label><br>
+                <input type="text"> <br></div>
+                <div class="box1"><label for="email">E-Mail</label><br>
+                <input type="text"> <br></div>  
+                <div class="box1"><label for="pass">Password</label><br>
+                <input type="password" id="pass"> <br></div>  <br>
+            </div>
+            <!--- <div class="user">
+            <label for="Student">Student</label><br>
+            <input type="radio"><br>        
+            <label for="Educator">Educator</label><br>
+            <input type="radio"><br>    
+            <label for="Worker">Worker</label><br>
+            <input type="radio"><br><br>
+            </div> ---> <!-- Options here is to be reviewed --> 
+        
+            <label for="Purpose">Purpose of use:</label><br><br>
+            <div class="PurposeOfUse">
+                <div class="Conpor"><label for="sel">Office</label><br><input type="checkbox"></div>
+                <div class="Conpor"><label for="sel">Queue in Line</label><br><input type="checkbox"></div>
+                <div class="Conpor"><label for="sel">Business</label><br><input type="checkbox"></div>
+                <div class="Conpor"><label for="sel">Client</label><br><input type="checkbox"></div>
+            </div>
+            <br>
+            <div class="SLBttn">
+                <button type="button" class="OrgButton">Sign Up</button> <!--Sign Up Button-->
+            </div>
+        </form>
+        <p class="or"> <!--This is the Alternative way to Login/SignUp-->
+            ----or----
+        </p>
+        <div class="icons">
+            <i class="fab fa-google">facebook</i>
+            <i class="fab fa-google">google</i>            
+        </div>
+        <div class="links"> <!--If the User Already have an Account-->
+            <p>Already have Account?</p>
+            
+            <button class="AltButton" id="signinbutton">Sign In</button>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div class="Li_container" id="signin">
+<div class="container">
+    <div class="formCon">
+            <h1> Welcome to FaQueue!</h1>
+            <h2> Login</h2>
+        <form>
+            <div class="LgInfo"> <!--Log in Info-->
+                <div class="box2"><label for="Uname">Username</label><br>
+                <input type="text"> <br></div>  
+                <div class="box2"><label for="pass">Password</label><br>
+                <input type="password" id="pass"></div>
+                <label class="ShowPass">Show Password<input type="checkbox"></label><br>
+            </div> 
+            <div class="SLBttn"> <!--SignUP Login Button-->
+            <button type="button" class="OrgButton">Log In</button>
+            </div>
+        </form>
+        <p class="or"> <!--This is the Alternative way to Login/SignUp-->
+            ----or----
+        </p>
+        <div class="icons">
+            <i class="fab fa-google">facebook</i>
+            <i class="fab fa-google">google</i>            
+        </div>
+        <div class="links"> <!--If the User Already have an Account-->
+            <p>Don't have Account?</p>
+            <button class="AltButton" id="signupbutton">Sign Up</button>
+        </div>
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+

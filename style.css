@@ -1,0 +1,100 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient( to right,#ffffff, #000000);
+}
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;    /* Vertically center */
+    height: 100vh; 
+}
+.formCon { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 40%;
+    height: auto;
+    padding: 1.5rem;
+    margin: 50px, auto;
+    border-radius: 25px; /* makes the corner of the white form round and modern*/
+}
+
+
+.BasicInfo {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.LgInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    gap: 15px; /* Space between items */
+}
+
+.ShowPass {
+    display: flex;
+    gap: 10px;
+}
+.box1 {
+    padding: 10px;
+    width: 45%;
+}
+.box2 {
+    width: 100%;
+    height: 100%;
+}
+.PurposeOfUse {
+    display: flex;
+    justify-content: space-evenly
+}
+.OrgButton {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: white; 
+    font-size: large;
+}
+.AltButton {
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    color: black; 
+    font-size: large;
+}
+
+.OrgButton:hover  {
+    background-color: wheat;
+    color: black;
+}
+
+.AltButton:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.SLBttn { /* to Center the main Login and Sign up Button Reminder */
+    display: flex;
+    justify-content: center;
+}
+
+input, label {
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    height: 20px;
+    font-size: larger;
+}
+
+.links {
+    display: flex;
+}
+
+
